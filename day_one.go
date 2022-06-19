@@ -9,13 +9,8 @@ import (
 // Calling main
 func main() {
 
-	// Declaring some const variables
-	const name, dept = "GeeksforGeeks", "CS"
+	const name, dept = "stuff", "stuff"
 
-	// Calling print() function
 	fmt.Print(name, " is a ", dept, " portal.\n")
-
-	// It is conventional not to worry about any
-	// error returned by Print.
 
 }
