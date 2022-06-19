@@ -4,7 +4,6 @@ package main
 // Importing fmt
 import (
 	"fmt"
-	"os"
 )
 
 var myInt int = 100
@@ -12,8 +11,10 @@ var myInt int = 100
 //yourInt := 230 //:= does declare and assign and cannot be used outside of the functions
 
 func main() { //main function can only receive arguments by os.args
-	name := os.Args[1] //here giving an argument by running go run day_one.go "testoo"
-
+	//name := os.Args[1] //here giving an argument by running go run day_one.go "testoo"
+	var name string
+	fmt.Println("Please enter your name")
+	fmt.Scanln(&name)
 	//var name string = "Bahadir"
 	var greeting = createGreet(name) //you have to have var behind any declaration
 	fmt.Printf("%s", greeting)       //printf takes %s for formatting
