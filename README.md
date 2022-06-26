@@ -1,5 +1,6 @@
 # golangbootcamp
-will be storing solutions and tutorials here ¯\_(ツ)_/¯
+will be storing solutions and tutorials here
+
 
 D:Day, day of the bootcamp goes like 1,2,3,4,5
 S:If it's before the break it's 1, else 2.
