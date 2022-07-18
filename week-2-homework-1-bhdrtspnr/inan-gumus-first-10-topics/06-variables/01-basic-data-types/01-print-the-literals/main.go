@@ -1,0 +1,43 @@
+// Copyright © 2018 Inanc Gumus
+// Learn Go Programming Course
+// License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+//
+// For more tutorials  : https://learngoprogramming.com
+// In-person training  : https://www.linkedin.com/in/inancgumus/
+// Follow me on twitter: https://twitter.com/inancgumus
+
+package main
+
+import "fmt"
+
+// ---------------------------------------------------------
+// EXERCISE: Print the literals
+//
+//  1. Print a few integer literals
+//
+//  2. Print a few float literals
+//
+//  3. Print true and false bool constants
+//
+//  4. Print your name using a string literal
+//
+//  5. Print a non-english sentence using a string literal
+//
+// ---------------------------------------------------------
+
+func main() {
+	var intexample int = 44
+	var floatexample float64 = 44.44
+	var boolexample bool = true
+	var stringexample string = "Bahadir"
+	var stringexample2 string = "Taspinar"
+	var stringexample3 string = "Bahadir Taspinar is a Go developer"
+	fmt.Println(intexample)
+	fmt.Println(floatexample)
+	fmt.Println(boolexample)
+	fmt.Println(stringexample)
+	fmt.Println(stringexample2)
+	fmt.Println(stringexample3)
+
+	// Use fmt.Println()
+}
